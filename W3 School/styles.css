@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    line-height: 50px;
+}
+#logo a img{
+    width: 38.344px;
+    height: 37px;
+    padding: 8px 16px 8px 16px;
+}
+nav a{
+    width: 70.516px;
+    height: 24px;
+    padding: 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav img{
+    width: 8px;
+    height: 8px;
+}
+#search img{
+    width: 25px;
+    height: 25px;
+}
+#dark a img{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    padding-top: 17px;
+}
+#goal img{
+    width: 20px;
+    height: 20px;
+    padding: 17px;
+    padding-left: 250px;
+    right: 150px;
+}
+
+#goal p{
+   margin-top: -70px;
+   padding-left: 280px;
+   font-size: larger;
+}
+nav a:hover{
+    background-color: rgb(58, 176, 58);
+    height: inherit;
+}
+#search input{
+    height: 20px;
+    width: 110px;
+    padding: 5px 40px 5px 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+section{
+    width: 100%;
+    height: 500px;
+    background-image: url(background_in_space.gif);
+}
